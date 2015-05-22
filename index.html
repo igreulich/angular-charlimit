@@ -1,41 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Angular-charlimit : Angularjs Directive to limit the number of characters allowed in a text field" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Angular-charlimit by igreulich</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Angular-charlimit</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
+    <div class="wrapper">
+      <header>
+        <h1>Angular-charlimit</h1>
+        <p>Angularjs Directive to limit the number of characters allowed in a text field</p>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/igreulich/angular-charlimit">View on GitHub</a>
+        <p class="view"><a href="https://github.com/igreulich/angular-charlimit">View the Project on GitHub <small>igreulich/angular-charlimit</small></a></p>
 
-          <h1 id="project_title">Angular-charlimit</h1>
-          <h2 id="project_tagline">Angularjs Directive to limit the number of characters allowed in a text field</h2>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/igreulich/angular-charlimit/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/igreulich/angular-charlimit/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Angular Character Limit</h3>
+        <ul>
+          <li><a href="https://github.com/igreulich/angular-charlimit/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/igreulich/angular-charlimit/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/igreulich/angular-charlimit">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>
+<a id="angular-character-limit" class="anchor" href="#angular-character-limit" aria-hidden="true"><span class="octicon octicon-link"></span></a>Angular Character Limit</h3>
 
 <p>This is my directive to limit the number of characters you can enter in a text field. It assumes you are using Bootstrap, and appends the warning class to your <code>control-group</code> at 10 characters left, and <code>error</code> at 0.</p>
 
-<h4>Use</h4>
+<h4>
+<a id="use" class="anchor" href="#use" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use</h4>
 
 <p>You need to include the <code>igCharLimit.js</code> file before your app, but after angular.</p>
 
@@ -57,30 +56,29 @@ var ngMyApp = angular.module('myApp', ['igTypahead']);
 &lt;textarea ng-model="message" char-limit="10"&gt;&lt;/textarea&gt;
 </code></pre>
 
-<h4>Requirements</h4>
+<h4>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Requirements</h4>
 
 <ul>
 <li>Angularjs (Tested against 1.0.1 and later*)</li>
 <li>jQuery</li>
 <li>Bootstrap (This directive assumes you are using it, and assigns the warning, and error classes to your elemenets control-group div, but does not need Bootstrap to function.)</li>
-</ul><h4>Todo</h4>
+</ul>
+
+<h4>
+<a id="todo" class="anchor" href="#todo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Todo</h4>
 
 <ul>
 <li>Remove dependency on jQuery</li>
 <li>Remove assumption on Bootstrap</li>
 </ul>
       </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Angular-charlimit maintained by <a href="https://github.com/igreulich">igreulich</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/igreulich">igreulich</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-
+    <script src="javascripts/scale.fix.js"></script>
     
-
   </body>
 </html>
