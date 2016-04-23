@@ -1,6 +1,6 @@
 {
   "name": "angular-charlimit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An angular directive to limit the number of characters in a bootstrap textbox",
   "main": "dist/igCharLimit.js",
   "repository": {
