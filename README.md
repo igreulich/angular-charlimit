@@ -10,18 +10,18 @@ This directive creates a new html attribute called char-limit. On your ```<input
 
 For example…
 
-	// Load the directive
-	<script src="jquery.js"></script>
-	<script src="angular.js"></script>
-	<script src="igCharLimit.js"></script>
-	<script src="ngApp.js"></script>
-	
-	// In your controller
-	// Include the module in your app
-	var ngMyApp = angular.module('myApp', ['igTypahead']);
-	
-	// In your markup
-	<textarea ng-model="message" char-limit="10"></textarea>
+  // Load the directive
+  <script src="jquery.js"></script>
+  <script src="angular.js"></script>
+  <script src="igCharLimit.js"></script>
+  <script src="ngApp.js"></script>
+
+  // In your controller
+  // Include the module in your app
+  var ngMyApp = angular.module('myApp', ['igCharLimit']);
+
+  // In your markup
+  <textarea ng-model="message" char-limit="10"></textarea>
 
 #### Requirements
 
